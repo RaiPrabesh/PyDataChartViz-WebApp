@@ -1,7 +1,7 @@
 # Data Visualization Dashboard
 
 Preview
-https://github.com/user-attachments/assets/75d48b97-efaf-4d43-b8ee-bea0178a663a
+[https://github.com/user-attachments/assets/75d48b97-efaf-4d43-b8ee-bea0178a663a](https://github.com/user-attachments/assets/2d34fcd8-9abd-43a5-81c2-5db9b950da21)
 
 ## Overview
 An interactive data visualization dashboard built with Streamlit and Plotly that allows users to explore and visualize their data through various chart types.
