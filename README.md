@@ -1,55 +1,89 @@
 # Data Visualization Dashboard
 
-A simple and interactive data visualization dashboard built with Streamlit that allows users to upload CSV or Excel files and create various types of visualizations.
+Preview
+![image](https://github.com/user-attachments/assets/7dfabd1e-fd23-4be6-a0b8-c1b5d922bc17)
+
+
+
+
+## Overview
+An interactive data visualization dashboard built with Streamlit and Plotly that allows users to explore and visualize their data through various chart types.
 
 ## Features
 
-- File upload support for CSV and Excel files
-- Multiple chart types (Scatter Plot, Line Chart, Bar Chart, Histogram)
-- Interactive data preview
+### File Support
+- Upload and process CSV and Excel files
+- Automatic data type detection
+- Preview raw data with pagination
+- Display dataset information (rows, columns, distinct values)
+- Note: As of Current, it only supports a clean dataset ➡️ Future updates will include a Data Cleaning Section
+
+### Chart Types
+
+#### Bar Charts
+
+- ``Simple Bar Chart with random color generation for each bar``
+![image](https://github.com/user-attachments/assets/8ff939a2-7660-449e-8ee7-2e37d7482a3d)
+- ``Clustered Bar Chart for comparing categories``
+![image](https://github.com/user-attachments/assets/bc5c7125-c169-426d-ad46-0562537adb02)
+
+- ``Customizable axis ranges and value selection``
+![image](https://github.com/user-attachments/assets/55ba2e08-667b-414b-aba6-45ab76a79053)
+
+
+#### Histograms
+- ``Simple Histogram with random color generation``
+![image](https://github.com/user-attachments/assets/752489d6-53a3-4557-93f2-0917c662d656)
+
+- ``Stacked Histogram for category distribution``
+![image](https://github.com/user-attachments/assets/5e0acf1c-a27d-4578-af64-9f62b1490006)
+
+- ``Side-by-side Histogram for category comparison``
+![image](https://github.com/user-attachments/assets/d0836e93-11be-40d7-ba8b-9f2df2472a83)
+
+- Adjustable bin sizes and ranges
+
+#### Other Charts
+- ``Scatter Plot for correlation analysis``
+![image](https://github.com/user-attachments/assets/5a38426b-5b8a-4126-9fbe-81c9bc4d00e4)
+
+- ``Line Chart for trend visualization``
+![image](https://github.com/user-attachments/assets/607117fb-d945-48e1-a765-7079d6da010e)
+
+
+### Advanced Features
 - Dynamic axis selection
-- Responsive visualizations
+- Multiple aggregation methods (Average, Total)
+- Interactive data filtering
+- Responsive layout design
+- Automatic color generation
+- Category-based filtering
+- Range selection for numeric values
+- Multi-select for categorical values
 
-## Installation
+### Data Analysis
+- Column statistics
+- ``Distinct value counts``
+![image](https://github.com/user-attachments/assets/1d8697f7-f977-4113-b132-1b2a428eb102)
+- ``Data preview capabilities`` 
+![Untitledvideo-MadewithClipchamp2-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/06f46edb-5e59-43c1-bb51-3ea0db88a0c8)
 
-1. First, ensure Python 3.11 is installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
+- Automatic data type detection
 
-2. After installing Python, open a terminal and verify the installation:
-   ```
-   python --version
-   ```
+## Developer
+[@dev Prabesh Rai](https://github.com/RaiPrabesh)
 
-3. Install the required packages using pip:
-   ```
-   pip install streamlit pandas plotly openpyxl
-   ```
+## Note
+This project is under active development. Future updates will include:
+- Additional chart types (Pie Chart, Box Plot, etc.)
+- Advanced data preprocessing options
+- Custom color palette selection
+- Chart annotation capabilities
+- Export options for visualizations
+- Interactive tooltips and legends
+- Dashboard customization options
+- Data transformation features
 
-## Running the Dashboard
+## License
 
-1. Navigate to the project directory:
-   ```
-   cd "path/to/Data Visualization"
-   ```
-
-2. Start the Streamlit server:
-   ```
-   streamlit run app_streamlit.py
-   ```
-
-3. The dashboard will open automatically in your default web browser.
-
-## Usage
-
-1. Upload your data file (CSV or Excel) using the file uploader
-2. Preview your data in the table view
-3. Select your desired chart type
-4. Choose the variables for X and Y axes
-5. The visualization will update automatically
-
-## Troubleshooting
-
-If you encounter any issues with Python or pip not being recognized:
-
-1. Make sure Python is added to your system's PATH
-2. Try using `python -m pip` instead of just `pip`
-3. For Windows users, you might need to use `py` instead of `python`
+This project is licensed under the terms of the **MIT License**. See the [LICENSE](LICENSE) file for details.
